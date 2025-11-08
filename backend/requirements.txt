@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sentence-transformers>=2.2.2
+faiss-cpu
+torch
+transformers
+python-dotenv
+requests
+wikipedia
+numpy
+tqdm
+scikit-learn

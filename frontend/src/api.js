@@ -1,0 +1,1 @@
+import axios from 'axios';const API_BASE='http://localhost:8000';export const ingestTopic=(topic)=>axios.post(API_BASE+'/ingest',{topic});export const getExam=(topic)=>axios.post(API_BASE+'/exam',{topic});export const submitExam=(exam,answers,level)=>axios.post(API_BASE+'/submit',{exam,answers,level_hint:level});

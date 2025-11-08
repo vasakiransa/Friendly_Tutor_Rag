@@ -1,0 +1,1 @@
+import React from 'react';export default function NotesDisplay({notes}){return <div>{notes?.map(n=><div key={n.topic}><h4>{n.topic}</h4><pre>{n.content}</pre></div>)}</div>;}
